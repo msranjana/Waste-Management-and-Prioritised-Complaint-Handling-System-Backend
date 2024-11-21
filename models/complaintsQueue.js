@@ -1,6 +1,6 @@
 let complaintsQueue = [];
 
-// Add a complaint to the queue
+// Adds a complaint to the queue
 function addComplaint(complaint) {
   complaintsQueue.push({ ...complaint, timestamp: Date.now() });
   complaintsQueue.sort((a, b) => a.priority - b.priority); // Sort by priority

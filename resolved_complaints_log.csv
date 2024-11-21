@@ -1,0 +1,7 @@
+S.No,Type,Priority,Location,Resolved Timestamp
+1,Missed Pickup,1,Hospital Area,2024-11-21T06:05:25.674Z
+2,Missed Pickup,1,Hospital Area,2024-11-21T06:08:30.626Z
+3,Overflowing Garbage Bin,1,Near School,2024-11-21T06:42:53.147Z
+4,Missed Pickup,2,Residential Area,2024-11-21T06:29:34.323Z
+5,Missed Pickup,2,Residential Area,2024-11-21T06:42:42.140Z
+6,Hazardous Waste Spillage,3,Industrial Zone,2024-11-21T06:43:03.425Z
