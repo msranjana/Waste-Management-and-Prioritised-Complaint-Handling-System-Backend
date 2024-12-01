@@ -46,9 +46,11 @@ waste-management-system/
   }
 
 **Response Example:**
-```
-json
-Copy code
+```json
+{
+  "message": "Complaint submitted successfully!"
+}
+
 ```
 
 ### 2. **GET  /complaints**
@@ -142,6 +144,7 @@ Once the server is started, it will listen on http://localhost:3000. You can che
 ### 4. **Acess the application**
 After starting the server, it will be accessible locally on http://localhost:3000. You can now test the API endpoints using tools like Postman or cURL. Follow the instructions in the API Endpoints section to test each API route.
 
+---
 
 
 
