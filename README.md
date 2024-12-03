@@ -17,20 +17,23 @@ This project aims to streamline the process of managing waste collection complai
 ## Project Structure
 ```plaintext
 waste-management-system/
-├── controllers/
-│   ├── complaintsController.js   # Logic for handling complaints
-│   ├── resolutionController.js   # Logic for resolving complaints
-├── data/
-│   ├── resolvedComplaints.csv    # Log of resolved complaints
+├── models/
+│   ├── complaintsQueue.js        # Handles the complaint queue logic (priority-based)
+│   ├── resolvedStack.js          # Manages resolved complaints stack
 ├── routes/
-│   ├── complaintRoutes.js        # Defines API endpoints for complaints
-│   ├── resolutionRoutes.js       # Defines API endpoints for resolutions
-├── services/
-│   ├── queueService.js           # Queue logic for prioritization
-│   ├── stackService.js           # Stack logic for historical tracking
-├── app.js                        # Main server file
+│   ├── complaints.js             # API routes for complaints
+│   ├── logs.js                   # API routes for logs (e.g., CSV generation)
+│   ├── resolved.js               # API routes for resolving complaints
+├── utils/
+│   ├── csvWriter.js              # Utility to write data to CSV files
+│   ├── validators.js             # Utility for validating input payloads
+├──  resolved_complaints_log.csv  # CSV file to store resolved complaints
+├── index.js                        # Main server entry point
+├── README.md                     # Documentation for the project
+├── .gitignore                    # Git ignored files (e.g., node_modules/, logs, etc.)
 ├── package.json                  # Project metadata and dependencies
-├── README.md                     # Project documentation
+├── package-lock.json             # Lock file for npm
+
 ```
 
 ## API Endpoints
