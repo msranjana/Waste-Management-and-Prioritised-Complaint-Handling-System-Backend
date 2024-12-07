@@ -1,4 +1,4 @@
-# Waste Management and Prioritized Complaint Handling System
+# Waste Management and Prioritized Complaint Handling System Backend 
 
 ## Project Overview
 This project aims to streamline the process of managing waste collection complaints in Mangalore (or similar urban areas) by providing an efficient system for handling, prioritizing, and resolving complaints. The system uses data structures like **queues** to prioritize urgent complaints, **stacks** to store historical data of resolved complaints, and **file handling** to maintain logs of actions for transparency and audit purposes. Complaints are categorized and processed based on their priority, such as health hazards or missed pickups in sensitive areas (e.g., near hospitals or schools).
@@ -26,7 +26,6 @@ waste-management-system/
 │   ├── resolved.js               # API routes for resolving complaints
 ├── utils/
 │   ├── csvWriter.js              # Utility to write data to CSV files
-│   ├── validators.js             # Utility for validating input payloads
 ├──  resolved_complaints_log.csv  # CSV file to store resolved complaints
 ├── index.js                        # Main server entry point
 ├── README.md                     # Documentation for the project
